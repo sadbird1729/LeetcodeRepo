@@ -9,4 +9,3 @@ class Solution:
         for i in range(26):
             if sn[i] != tn[i]:return False
         return True
-        
