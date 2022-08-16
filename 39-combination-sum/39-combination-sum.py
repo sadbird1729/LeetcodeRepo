@@ -3,9 +3,7 @@ class Solution:
         res = []
         path = []
         def dfs(candidates,target,start):
-            if target<0:
-                return 
-            elif target==0:
+            if target==0:
                 res.append(path[:])
                 return
             
